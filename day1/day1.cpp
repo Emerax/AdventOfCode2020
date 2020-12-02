@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <set>
-#include <vector>
-#include <stdlib.h>
 
 using namespace std;
 
@@ -22,7 +20,6 @@ int main() {
     }
     
     int twoValueExpanseReport;
-    vector<int> temp;
     for(auto it = entries.begin(); it != entries.end(); ++it){
         //Find sought-after value.
  
