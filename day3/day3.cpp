@@ -31,7 +31,7 @@ int main() {
     cout << "Product of all slopes is " << answer << "!" << endl;
 }
 
-int find_trees(vector<string> slope, int deltaX, int deltaY) {
+unsigned int find_trees(vector<string> slope, int deltaX, int deltaY) {
     long unsigned int width{slope[0].size()}, height{slope.size()};
     int trees{0};
 
