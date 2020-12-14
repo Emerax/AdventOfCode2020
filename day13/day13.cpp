@@ -59,7 +59,7 @@ int main() {
             }
         }
 
-        unsigned long t{0};
+        unsigned long t{vals[0]};
 
         while(true) {
 
